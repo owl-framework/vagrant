@@ -11,7 +11,7 @@ Software:
 * PHP 5.6 (+default+json+memcache+fpm+curl)
 * [Nginx](http://nginx.org/) (Web server)
 * [Zephir Language](https://github.com/phalcon/zephir) (Compiled high level language aimed to the creation of C-extensions for PHP)
-* [Owl 2](https://github.com/owl-framework/owl) (Owl Framework for PHP on Zephir)
+* [Owl](https://github.com/owl-framework/owl) (Owl Framework for PHP on Zephir)
 * [Lynx](https://github.com/lynx/lynx) (ORM/DBAL for PHP on Zephir)
 * [Composer](https://getcomposer.org/) (Dependency Manager for PHP)
 
