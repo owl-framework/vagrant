@@ -1,6 +1,6 @@
 ---
-  name: phalcon2-dev
-  hostname: vm.local
+  name: owl-dev
+  hostname: owlvm.local
   box: ubuntu/trusty64
   provider: virtualbox
   gui: false

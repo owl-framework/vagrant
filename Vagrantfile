@@ -24,11 +24,6 @@ Vagrant.configure(2) do |config|
     if Vagrant.has_plugin?('vagrant-hostmanager')
         hosts = Array.new()
 
-        hosts.push("phalcon-module.local");
-        hosts.push("angular-skeleton.local");
-        hosts.push("phalcon-rest.local");
-        hosts.push("phalcon-lynx-rest.local");
-
         config.hostmanager.enabled           = true
         config.hostmanager.manage_host       = true
         config.hostmanager.ignore_private_ip = false
@@ -46,7 +41,7 @@ Vagrant.configure(2) do |config|
     config.vm.provision :shell, :path => "vagrant/install.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/php.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/zephir.sh"
-    config.vm.provision :shell, :path => "vagrant/scripts/phalcon.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/owl.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/lynx.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/pre-installed-projects.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/dbs/mysql.sh"
